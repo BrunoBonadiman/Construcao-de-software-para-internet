@@ -35,5 +35,6 @@ app.use(function (req, res, next) {
     return res.render('index');
 });
 
+app.listen(3001);
 
 module.exports = app;
